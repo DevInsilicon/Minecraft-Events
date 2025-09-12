@@ -1,0 +1,6 @@
+name: EventSystem
+version: '1.0-SNAPSHOT'
+main: dev.insilicon.eventSystem.EventSystem
+api-version: '1.21'
+prefix: ES
+authors: [ ModdedKid ]
