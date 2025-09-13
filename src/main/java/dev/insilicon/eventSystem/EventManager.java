@@ -1,6 +1,7 @@
 package dev.insilicon.eventSystem;
 
 import org.bukkit.Location;
+import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.joml.Vector3d;
 
@@ -14,8 +15,14 @@ public class EventManager implements Listener {
 
     public EventManager() {
         instance = this;
+    }
 
+    public void kickPlayerFromEvent(Player player) {
+        // Todo: Restore inventory and remove them offically from event
+    }
 
+    public void officallyEndEvent() {
+        // Todo: Clean up event from memory
     }
 
 }

@@ -4,10 +4,14 @@ import net.kyori.adventure.text.Component;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BaseEvent implements Listener {
 
     private Component displayName;
     private String id;
+    public List<Player> playersInEvent = new ArrayList<>();
 
     public BaseEvent(Component displayName, String id) {
 
